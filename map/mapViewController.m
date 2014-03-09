@@ -17,7 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.map.showsUserLocation = YES;
+    
+    CLLocationCoordinate2D myLocation = CLLocationCoordinate2DMake(43.459574, -80.514663);
+    MKCoordinateRegion myRegion = MKCoordinateRegionMakeWithDistance(myLocation, 100, 100);
+    self.map.region = myRegion;
 }
 
 - (void)didReceiveMemoryWarning
