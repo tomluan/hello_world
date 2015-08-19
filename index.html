@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Listview Responsive Grid - jQuery Mobile Demos</title> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="listview-grid.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+	
+	<style type="text/css">
+	#pg1 {
+		  background:url(background.jpg) no-repeat center center fixed;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		   background-size: cover;
+	 }
+</style>
+	
+</head>
+<body>
+<div id="pg1" data-role="page" data-theme="b" id="demo-page" class="my-page">
+
+	<div data-role="header">
+		<h1>Listview Responsive Grid</h1>
+		<a href="./" data-shadow="false" data-iconshadow="false" data-icon="carat-l" data-iconpos="notext" data-rel="back" data-ajax="false">Back</a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<div id="city" class="ui-grid-solo" style="position: relative;">
+        <ul data-role="listview" data-inset="true">
+        	<li><a href="#">
+            	<img src="apple.png" class="ui-li-thumb">
+            	<h2>iOS 6.1</h2>
+            </a></li>
+        	<li><a href="#">
+            	<img src="../_assets/img/blackberry_10.png" class="ui-li-thumb">
+            	<h2>BlackBerry 10</h2>
+                 
+            </a></li>
+        	<li><a href="#">
+            	<img src="../_assets/img/lumia_800.png" class="ui-li-thumb">
+            	<h2>WP 7.8</h2>
+                 
+            </a></li>
+        	<li><a href="#">
+            	<img src="../_assets/img/galaxy_express.png" class="ui-li-thumb">
+            	<h2>Galaxy</h2>
+                 
+            </a></li>
+        	<li><a href="#">
+            	<img src="../_assets/img/nexus_7.png" class="ui-li-thumb">
+            	<h2>Nexus 7</h2>
+                 
+            </a></li>
+        	
+        </ul>
+ </div>
+    </div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>
